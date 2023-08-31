@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oracle/views/home.dart';
 import 'package:provider/provider.dart';
 
-import 'providers/sensorNotifier.dart';
+import 'providers/sensor_notifier.dart';
 
 void main() {
   runApp(
