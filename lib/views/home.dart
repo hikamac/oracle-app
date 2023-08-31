@@ -6,9 +6,18 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: OracleContainer(),
+        child: Column(
+          children: [
+            Container(
+              width: 100,
+              height: 100,
+              color: Colors.blue,
+            ),
+            const OracleContainer(),
+          ],
+        ),
       ),
     );
   }

@@ -11,7 +11,7 @@ class OracleContainer extends StatelessWidget {
       builder: (context, notifier, child) {
         return Transform.rotate(
           angle: notifier.angle,
-          child: Image.asset("assets/images/omijikuji2.png"),
+          child: Image.asset("assets/images/omikuji2.png"),
         );
       },
     );
