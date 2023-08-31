@@ -1,12 +1,9 @@
-
 import 'package:flutter/material.dart';
-import 'package:oracle/models/developer.dart';
 import 'package:oracle/providers/sensor_notifier.dart';
 import 'package:provider/provider.dart';
 
 class OracleContainer extends StatelessWidget {
-  List<Developer> members;
-  OracleContainer({super.key, required this.members});
+  const OracleContainer({super.key});
 
   @override
   Widget build(BuildContext context) {

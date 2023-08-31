@@ -6,9 +6,11 @@ import 'providers/sensor_notifier.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (context) => SensorNotifier(),
-      child: const MyApp(),
+    Builder(
+      builder: (context) => ChangeNotifierProvider(
+        create: (context) => SensorNotifier(context),
+        child: const MyApp(),
+      ),
     ),
   );
 }
